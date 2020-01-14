@@ -41,7 +41,7 @@ public class CreatePlateSD extends BasePage
                 basePage.viewPlate.click();
                //BrowserUtils.waitForVisibility(basePage.viewplt,5);
                 //BrowserUtils.waitForPageToLoad(5);
-              BrowserUtils.wait(3);
+              BrowserUtils.wait(5);
                 //BrowserUtils.waitForVisibility(basePage.imag,5);
                 if (basePage.viewplt.getText().contains("Congratulations"))
                 {
@@ -50,7 +50,7 @@ public class CreatePlateSD extends BasePage
                 //basePage.clearForm.click();
             }
 
-            BrowserUtils.wait(2);
+           // BrowserUtils.wait(2);
         }
 
     }
