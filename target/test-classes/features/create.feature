@@ -1,3 +1,4 @@
+@createplate
 Feature: Create Plate
 
   Scenario: Create a plate with two chars

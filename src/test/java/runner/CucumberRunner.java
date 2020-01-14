@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "step_definition",
+        tags="@createplate",
         dryRun = false
 
 )
