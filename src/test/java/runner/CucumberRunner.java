@@ -8,7 +8,10 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "step_definition",
         tags="@createplate",
-        dryRun = false
+        dryRun = false,
+        plugin = {"html:target/default-cucumber-reports",
+        "json:target/cucumber.json",
+        "rerun:target/rerun.txt"}
 
 )
 
